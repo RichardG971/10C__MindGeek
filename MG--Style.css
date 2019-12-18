@@ -1,0 +1,94 @@
+.cBlueEx3,
+header .navbar li a,
+header .navbar li.active i,
+header .navbar li:hover i {
+	color: rgb(33,62,78);
+}
+
+.cPinkEx3,
+header .navbar li i,
+header .navbar li.active a,
+header .navbar li:hover a {
+	color: rgb(251,139,155);
+}
+
+header .navbar li:not(.active):active,
+footer .navbar li a:not(.disabled):active
+ {
+	border: 1px solid rgb(251,139,155);
+}
+
+.navbar li.active a {
+	pointer-events: none;
+}
+
+.cGreyEx3 {
+	color: rgb(96,105,110);
+}
+
+.bgBlueEx3 {
+	background-color: rgb(33,62,78);
+}
+
+.bgPinkEx3 {
+	background-color: rgb(251,139,155);
+}
+
+.lcircle {
+	list-style-type: circle;
+}
+
+.border-dashed {
+	border: 1px;
+	border-style: dashed;
+}
+
+.border-pinkex3 {
+	border-color: rgb(251,139,155) !important;
+}
+
+.lh30 {
+	line-height: 30px;
+}
+
+.bghome {
+	background-image: url(10C-_Img/MG--BgHome.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cardex3 {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	/*word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;*/
+	border: 1px dashed dark;
+}
+
+table#maquettes caption {
+	caption-side: top;
+	font-size: 1.5rem;
+}
+
+#maquettes td {
+	padding: initial;
+}
+
+#maquettes td div {
+	padding: 10px;
+}
+
+#maquettes td:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	font-weight: bolder;
+}
+
+#maquettes td a:hover {
+	text-decoration: none;
+}
